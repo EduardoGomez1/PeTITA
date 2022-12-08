@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportLapFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_revisionpc"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/limpiezalap" />
+
+            <TextView
+                android:id="@+id/txt_cleanLap"
+                android:layout_width="121dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="60dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/EquipmentCleaning"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/img_revisionpc"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/img_revisionpc"
+                app:layout_constraintTop_toBottomOf="@+id/img_revisionpc" />
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/txt_cleanLap"
+                app:layout_constraintStart_toStartOf="@+id/txt_cleanLap"
+                app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="60dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.96"
+                app:layout_constraintStart_toEndOf="@+id/img_revisionpc"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/antivirusupdate" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="121dp"
+                android:layout_height="46dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/Antivirusupdate"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView25"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView25"
+                app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+            <TextView
+                android:id="@+id/txt_price_updateAntivirus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/textView21"
+                app:layout_constraintHorizontal_bias="0.465"
+                app:layout_constraintStart_toStartOf="@+id/textView21"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
+                app:srcCompat="@drawable/optimizacion" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="121dp"
+                android:layout_height="56dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/SystemOptimization"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView26"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView26"
+                app:layout_constraintTop_toBottomOf="@+id/imageView26" />
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/textView22"
+                app:layout_constraintStart_toStartOf="@+id/textView22"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="60dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.941"
+                app:layout_constraintStart_toEndOf="@+id/imageView26"
+                app:layout_constraintTop_toBottomOf="@+id/textView21"
+                app:srcCompat="@drawable/updating" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="60dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/ProgramUpdate"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView27"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView27"
+                app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/textView23"
+                app:layout_constraintStart_toStartOf="@+id/textView23"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="32dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:src="@drawable/reparacion"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/txt_nameService"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="60dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/operatingsystemrepair"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                app:layout_constraintHorizontal_bias="0.016"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/txt_nameService"
+                app:layout_constraintStart_toStartOf="@+id/txt_nameService"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nameService" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="60dp"
+                android:src="@drawable/updatelap"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="125dp"
+                android:layout_height="42dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/Hardwareupgrade"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView6"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="@+id/imageView6"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/textView5"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="@+id/textView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="32dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:src="@drawable/deletevirus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nameService" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="122dp"
+                android:layout_height="64dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/Removeantivirus"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView8"
+                app:layout_constraintHorizontal_bias="0.016"
+                app:layout_constraintStart_toStartOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/textView6"
+                app:layout_constraintStart_toStartOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="60dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:src="@drawable/repairlap"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="121dp"
+                android:layout_height="63dp"
+                android:foregroundGravity="center"
+                android:foregroundTint="#020202"
+                android:gravity="center"
+                android:text="@string/repairhard"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView9"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+            <TextView
+                android:id="@+id/txt_price_cleanerLap8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                app:layout_constraintEnd_toEndOf="@+id/textView7"
+                app:layout_constraintHorizontal_bias="0.488"
+                app:layout_constraintStart_toStartOf="@+id/textView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

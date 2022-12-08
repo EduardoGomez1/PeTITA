@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203106096059",
+    "project_id": "petita-dc350",
+    "storage_bucket": "petita-dc350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203106096059:android:a44e84bfa4b0444a836a9e",
+        "android_client_info": {
+          "package_name": "ita.com.petITA"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203106096059-ti47kc0ti5nthsc0ufr7rrefjhmapnob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUa9xmj9U5-hc6yVsgFbNnuKDR7icrzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203106096059-ti47kc0ti5nthsc0ufr7rrefjhmapnob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

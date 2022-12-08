@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ita.com.petITA">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PeTITA"
+        tools:targetApi="31">
+        <activity
+            android:name="ita.com.petITA.CongratulationsActivity"
+            android:exported="false" />
+        <activity
+            android:name="ita.com.petITA.PasswordForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name="ita.com.petITA.ForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name="ita.com.petITA.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="ita.com.petITA.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="ita.com.petITA.MenuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.PeTITA.NoActionBar" />
+        <activity
+            android:name="ita.com.petITA.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="ita.com.petITA.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

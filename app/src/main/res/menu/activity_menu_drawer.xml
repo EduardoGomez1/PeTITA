@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            />
+        <item
+            android:id="@+id/editInformationFragment"
+            android:icon="@drawable/ic_baseline_edit_24"
+            android:title="@string/menu_editInfo" />
+        <item android:title=""
+            android:enabled="false"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/services"
+            android:enabled="false"/>
+        />
+        <item
+            android:id="@+id/supportpcFragment"
+            android:title="@string/menu_supportPC"
+            android:icon="@drawable/ic_baseline_support_agent_24"/>
+        <item
+            android:id="@+id/supportLapFragment"
+            android:title="@string/menu_supporLaptop"
+            android:icon="@drawable/ic_baseline_support_agent_24"/>
+        <item
+            android:id="@+id/instalationNetFragment"
+            android:title="@string/menu_instalationNetwork"
+            android:icon="@drawable/ic_baseline_support_agent_24"/>
+        <item
+            android:id="@+id/instalationSoftFragment"
+            android:title="@string/menu_instalationSoft"
+            android:icon="@drawable/ic_baseline_support_agent_24"/>
+    </group>
+    <group>
+        <item android:title=""
+            android:enabled="false"/>
+        <item
+            android:id="@+id/aboutFragment"
+            android:title="@string/menu_about"
+            android:icon="@drawable/ic_baseline_info_24"/>
+        <item
+            android:id="@+id/contacFragment"
+            android:title="@string/menu_contact"
+            android:icon="@drawable/ic_baseline_contact_page_24"/>
+        <item
+            android:id="@+id/termAndConditionsFragment"
+            android:title="@string/menu_term"
+            android:icon="@drawable/ic_baseline_shield_24" />
+    </group>
+</menu>

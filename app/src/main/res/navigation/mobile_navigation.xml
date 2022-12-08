@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ita.com.petITA.ui.home.HomeFragment"
+        android:label="@string/title"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/supportpcFragment"
+        android:name="ita.com.petITA.SupportpcFragment"
+        android:label="@string/menu_supportPC"
+        tools:layout="@layout/fragment_supportpc" >
+        <action
+            android:id="@+id/action_supportpcFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/supportLapFragment"
+        android:name="ita.com.petITA.SupportLapFragment"
+        android:label="@string/menu_supporLaptop"
+        tools:layout="@layout/fragment_support_lap" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/instalationNetFragment"
+        android:name="ita.com.petITA.InstalationNetFragment"
+        android:label="@string/menu_instalationNetwork"
+        tools:layout="@layout/fragment_instalation_net" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/instalationSoftFragment"
+        android:name="ita.com.petITA.InstalationSoftFragment"
+        android:label="@string/menu_instalationSoft"
+        tools:layout="@layout/fragment_instalation_soft" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="ita.com.petITA.AboutFragment"
+        android:label=""
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/contacFragment"
+        android:name="ita.com.petITA.ContacFragment"
+        android:label=""
+        tools:layout="@layout/fragment_contac" />
+    <fragment
+        android:id="@+id/termAndConditionsFragment"
+        android:name="ita.com.petITA.TermAndConditionsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_term_and_conditions" />
+    <fragment
+        android:id="@+id/editInformationFragment"
+        android:name="ita.com.petITA.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_editInformationFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="ita.com.petITA.ChangePasswordFragment"
+        android:label=""
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/action_changePasswordFragment_to_passwordChangeFragment"
+            app:destination="@id/passwordChangeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/passwordChangeFragment"
+        android:name="ita.com.petITA.PasswordChangeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_password_change" />
+    <fragment
+        android:id="@+id/congratulationPasswordChangeFragment"
+        android:name="ita.com.petITA.CongratulationPasswordChangeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_congratulation_password_change">
+        <action
+            android:id="@+id/action_congratulationPasswordChangeFragment_to_editInformationFragment"
+            app:destination="@id/editInformationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="ita.com.petITA.PaymentFragment"
+        android:label="@string/payment"
+        tools:layout="@layout/fragment_payment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_aprobadoFragment"
+            app:destination="@id/aprobadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aprobadoFragment"
+        android:name="ita.com.petITA.AprobadoFragment"
+        android:label=""
+        tools:layout="@layout/fragment_aprobado" />
+    <fragment
+        android:id="@+id/homeServiceFragment"
+        android:name="ita.com.petITA.HomeServiceFragment"
+        android:label="MyTechnical"
+        tools:layout="@layout/fragment_home_service" >
+        <action
+            android:id="@+id/action_homeServiceFragment_to_ratingFragment"
+            app:destination="@id/ratingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ratingFragment"
+        android:name="ita.com.petITA.RatingFragment"
+        android:label="@string/Rating"
+        tools:layout="@layout/fragment_rating" />
+    <fragment
+        android:id="@+id/suportPcInfoFragment"
+        android:name="ita.com.petITA.SuportPcInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_suport_pc_info" />
+    <fragment
+        android:id="@+id/supporLapInfoFragment"
+        android:name="ita.com.petITA.SupporLapInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_suppor_lap_info" />
+    <fragment
+        android:id="@+id/instalationNetInfoFragment"
+        android:name="ita.com.petITA.InstalationNetInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_instalation_net_info" />
+    <fragment
+        android:id="@+id/instalationSoftInfoFragment"
+        android:name="ita.com.petITA.InstalationSoftInfoFragment"
+        android:label="@string/pc"
+        tools:layout="@layout/fragment_instalation_soft_info" />
+
+</navigation>

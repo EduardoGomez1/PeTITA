@@ -31,29 +31,29 @@
     <string name="menu_supportPC">PC Technical Support</string>
     <string name="menu_supporLaptop">Laptop Technical Support</string>
     <string name="menu_instalationNetwork">Network Installation</string>
-    <string name="menu_instalationSoft">Software Installation</string>
-    <string name="mytechnicalservices">Services MyTechnical</string>
-    <string name="mytechnicaldescription">At MyTechnical, we have created a work philosophy of attention, assistance and professional service with human quality.</string>
-    <string name="mytechnicaldescriptionv2">We are a serious and consolidated Mexican company, formed by professionals in the services of Technical Support, Computer Equipment and Audiovisual.</string>
+    <string name="menu_instalationSoft">URGENCIES</string>
+    <string name="mytechnicalservices">Services petITA</string>
+    <string name="mytechnicaldescription">At petITA-Vet, we have created a work philosophy of attention, assistance and professional service with human quality.</string>
+    <string name="mytechnicaldescriptionv2">We\'re here to give the users the proper attention, to give them a proper medical attention to their pets, so with that we\'re here to show them the areas where the veterinaries are, and with our help, give them solutions int the moment</string>
     <string name="knowus">Know Us</string>
-    <string name="user">user@gmail.com</string>
+    <string name="user">petITA@petITA.com</string>
     <string name="about">About</string>
-    <string name="aboutinfo">MyTechnical is the platform to request technical service. We currently offer a wide range of services by application in Aguascalientes.Today we connect with a huge number of users through technical solutions through the application such as PC Technical Support, Laptop Technical Support, Network Installation and Software Installation.</string>
+    <string name="aboutinfo">petITA-Vet is the platform to request medical veterinary service. We\'re currently giving the ASAP attention to the veterinary, in these days where the growing size of the city is a fact, we see poor pets in throuble, so we created petITA not only for the user who are the master of pets, just to show how the strange pets can have a proper attention, and care that all the animals deserve.</string>
     <string name="Physicalexamination">Revision Fisica</string>
     <string name="Diagnosis">Diagnostico</string>
-    <string name="CleaningComputer">Limpieza de equipos de computo</string>
-    <string name="Operatingsystem">Actualización del sistema operativo</string>
-    <string name="backup">Copia de seguridad de la informacion</string>
-    <string name="RAMexpansion">expansión RAM</string>
-    <string name="Recover">Recuperacion de informacion</string>
-    <string name="EquipmentCleaning">Limpieza de equipos</string>
-    <string name="Antivirusupdate">Actualizacion de Antivirus</string>
-    <string name="SystemOptimization">Optimizacion de Sistema</string>
-    <string name="ProgramUpdate">Actualizacion de Programas</string>
-    <string name="operatingsystemrepair">Reparacion del sistema Operativo</string>
-    <string name="Hardwareupgrade">Actualizacion de Hardware</string>
-    <string name="Removeantivirus">Eliminación de virus e instalación de antivirus</string>
-    <string name="repairhard">Reparacion a nivel de Hardware</string>
+    <string name="CleaningComputer">Vacunas</string>
+    <string name="Operatingsystem">URGENCIAS</string>
+    <string name="backup">Esterilizacion</string>
+    <string name="RAMexpansion">Corte de pelo</string>
+    <string name="Recover">Limpieza dental</string>
+    <string name="EquipmentCleaning">Bañado</string>
+    <string name="Antivirusupdate">Atencion especializada</string>
+    <string name="SystemOptimization">Medicinas</string>
+    <string name="ProgramUpdate">Accesorios</string>
+    <string name="operatingsystemrepair">Juguetes</string>
+    <string name="Hardwareupgrade">Actualizacion del historial</string>
+    <string name="Removeantivirus">Curacion de heridas</string>
+    <string name="repairhard">Productos de belleza</string>
     <string name="price">MXN $99.99</string>
     <string name="clientinfo">Client information</string>
     <string name="serviseinfo">Service information</string>
@@ -85,7 +85,7 @@
     <string name="emiliano" translatable="false">Emiliano Hernadez Rodriguez</string>
     <string name="emilianoemail" translatable="false">guez.emilio92@gmail.com</string>
     <string name="termandconditions">Term and Conditions</string>
-    <string name="term">These terms and conditions of use are made available to the user by MYTECHNICAL MOBILITY INFORMATION TECHNOLOGY PTE. LTD.(hereinafter referred to asMyTechnical or the Company), a company duly incorporated under the laws of Mexico with address at C Salvador Novo 347, Pensadores Mexicanos, Aguascalientes Mexico.</string>
+    <string name="term">These terms and conditions of use are made available to the user by petITA-Vet MOBILITY INFORMATION TECHNOLOGY PTE. LTD.(hereinafter referred to as petITA-Vet or the Company), a company duly incorporated under the laws of Mexico with address at C Salvador Novo 347, Pensadores Mexicanos, Aguascalientes Mexico.</string>
     <string name="action_languaje">Change Language</string>
     <string name="action_exit">Exit</string>
     <string name="changepass">Change Password</string>
@@ -99,14 +99,14 @@
     <string name="phoneNumber">Phone number:</string>
     <string name="home">Home</string>
     <string name="profile">Profile Information</string>
-    <string name="dialog">Waiting for answers from the technician</string>
+    <string name="dialog">Waiting for answers from the doctor</string>
     <string name="btnService">Show Order</string>
-    <string name="messageservice">Technician on the way</string>
+    <string name="messageservice">The doctor\'s on the way</string>
     <string name="tecnicalName">Freddy Luna</string>
-    <string name="AddresTecnical">Addres:</string>
+    <string name="AddresTecnical">Address:</string>
     <string name="tecnicalphone">Phone:</string>
     <string name="btnMap">Show Map</string>
-    <string name="menu_title" translatable="false">MyTechnical</string>
+    <string name="menu_title" translatable="false">petITA-Vet</string>
     <string name="rateService">Rate Service</string>
     <string name="Rating">Rating</string>
     <string name="infopc">Today\'s fast pace of life requires us to have computer equipment working perfectly and 24/7, so at MyTechnical we design a fast, efficient preventive and corrective maintenance solution tailored to your needs.</string>

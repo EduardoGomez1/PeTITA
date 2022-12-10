@@ -25,7 +25,7 @@
                 android:layout_marginTop="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
-                app:srcCompat="@drawable/disconet" />
+                app:srcCompat="@drawable/Bag" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -57,7 +57,7 @@
                 android:layout_marginEnd="64dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView21"
-                app:srcCompat="@drawable/red" />
+                app:srcCompat="@drawable/Alcohol" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -91,7 +91,7 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ruteadores" />
+                app:srcCompat="@drawable/Paracetamol" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -124,7 +124,7 @@
                 android:layout_marginTop="28dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/servidores" />
+                app:srcCompat="@drawable/Toothpaste" />
 
             <TextView
                 android:id="@+id/txt_cleanLap"

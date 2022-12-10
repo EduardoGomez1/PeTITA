@@ -25,7 +25,7 @@
                 android:layout_marginTop="28dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/limpiezalap" />
+                app:srcCompat="@drawable/Shampoo" />
 
             <TextView
                 android:id="@+id/txt_cleanLap"
@@ -61,7 +61,7 @@
                 app:layout_constraintHorizontal_bias="0.96"
                 app:layout_constraintStart_toEndOf="@+id/img_revisionpc"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/antivirusupdate" />
+                app:srcCompat="@drawable/Chain" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -95,7 +95,7 @@
                 android:layout_marginTop="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
-                app:srcCompat="@drawable/optimizacion" />
+                app:srcCompat="@drawable/Ball" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -130,7 +130,7 @@
                 app:layout_constraintHorizontal_bias="0.941"
                 app:layout_constraintStart_toEndOf="@+id/imageView26"
                 app:layout_constraintTop_toBottomOf="@+id/textView21"
-                app:srcCompat="@drawable/updating" />
+                app:srcCompat="@drawable/Nibble" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -165,7 +165,7 @@
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:src="@drawable/reparacion"
+                android:src="@drawable/Dog"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -201,7 +201,7 @@
                 android:layout_marginStart="48dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="60dp"
-                android:src="@drawable/updatelap"
+                android:src="@drawable/Pecera"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -240,7 +240,7 @@
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:src="@drawable/deletevirus"
+                android:src="@drawable/Comb"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_nameService" />
 
@@ -277,7 +277,7 @@
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:src="@drawable/repairlap"
+                android:src="@drawable/House"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView8"

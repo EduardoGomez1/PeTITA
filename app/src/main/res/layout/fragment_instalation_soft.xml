@@ -24,7 +24,7 @@
                 android:layout_marginTop="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
-                app:srcCompat="@drawable/office" />
+                app:srcCompat="@drawable/Car" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -86,7 +86,7 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView26"
                 app:layout_constraintTop_toBottomOf="@+id/textView21"
-                app:srcCompat="@drawable/aplicaciones" />
+                app:srcCompat="@drawable/Breed" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -113,7 +113,7 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/img_revisionpc"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/antirus" />
+                app:srcCompat="@drawable/Emergency" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -137,7 +137,7 @@
                 android:layout_marginTop="28dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/sistema" />
+                app:srcCompat="@drawable/Injection" />
 
             <TextView
                 android:id="@+id/txt_cleanLap"

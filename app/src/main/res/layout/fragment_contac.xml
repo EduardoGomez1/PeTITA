@@ -35,7 +35,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/alfredo"
+                        android:src="@drawable/Antonio"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:text="(499) 191 60 04"
+                    android:text="(499) 275 29 23"
                     android:textSize="14sp" />
             </LinearLayout>
 
@@ -95,7 +95,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/pablo"
+                        android:src="@drawable/Eduardo"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -153,7 +153,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/emiliano"
+                        android:src="@drawable/Sarai"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout

@@ -50,7 +50,7 @@
                     android:layout_height="80dp"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/pc" />
+                    android:src="@drawable/Diagnostic" />
 
             </RelativeLayout>
 

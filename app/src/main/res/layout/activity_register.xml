@@ -16,7 +16,7 @@
         android:contentDescription="@string/Signup"
         android:text="@string/Signup"
         android:textAlignment="center"
-        android:textColor="#263445"
+        android:textColor="#311B92"
         android:textIsSelectable="false"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -187,7 +187,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
-        android:background="#263445"
+        android:background="#311B92"
 
         android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
         android:fontFamily="sans-serif-medium"

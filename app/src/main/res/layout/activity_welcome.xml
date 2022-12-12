@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".WelcomeActivity">
 
     <TextView
@@ -93,7 +94,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="105dp"
 
-        android:src="@drawable/tecnical"
+        android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

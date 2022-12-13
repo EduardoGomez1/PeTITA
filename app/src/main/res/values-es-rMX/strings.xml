@@ -108,5 +108,6 @@
     <string name="invalid_mail">Ingrese email valido</string>
     <string name="invalid_password">Ingrese contraseña valida</string>
     <string name="submit">Calificar</string>
+    <string name="emergency">EMERGENCY</string>
 
 </resources>

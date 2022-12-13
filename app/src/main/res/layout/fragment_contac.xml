@@ -36,7 +36,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/Antonio"
+                        android:src="@drawable/antonio"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -96,7 +96,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/Eduardo"
+                        android:src="@drawable/eduardo"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -156,7 +156,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/Sarai"
+                        android:src="@drawable/sarai"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout

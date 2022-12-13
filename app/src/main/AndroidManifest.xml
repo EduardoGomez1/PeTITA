@@ -13,31 +13,47 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PeTITA"
         tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.AIzaSyBvPmEMCf4zkW4gwh_zNNphEFAQQkZGU5c"
+            android:value="AIzaSyBvPmEMCf4zkW4gwh_zNNphEFAQQkZGU5c" />
+
         <activity
-            android:name="ita.com.petITA.CongratulationsActivity"
+            android:name=".CongratulationsActivity"
             android:exported="false" />
         <activity
-            android:name="ita.com.petITA.PasswordForgotActivity"
+            android:name=".PasswordForgotActivity"
             android:exported="false" />
         <activity
-            android:name="ita.com.petITA.ForgotActivity"
+            android:name=".ForgotActivity"
             android:exported="false" />
         <activity
-            android:name="ita.com.petITA.RegisterActivity"
+            android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="ita.com.petITA.WelcomeActivity"
+            android:name=".WelcomeActivity"
             android:exported="false" />
         <activity
-            android:name="ita.com.petITA.MenuActivity"
+            android:name=".MenuActivity"
             android:exported="false"
             android:label="@string/title_activity_menu"
             android:theme="@style/Theme.PeTITA.NoActionBar" />
         <activity
-            android:name="ita.com.petITA.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name="ita.com.petITA.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

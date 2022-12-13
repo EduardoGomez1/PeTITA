@@ -50,7 +50,7 @@
                     android:layout_height="80dp"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/Drug" />
+                    android:src="@drawable/drug" />
 
             </RelativeLayout>
 
@@ -88,7 +88,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/redes1" />
+                    android:src="@drawable/vet" />
 
                 <TextView
                     android:layout_width="236dp"

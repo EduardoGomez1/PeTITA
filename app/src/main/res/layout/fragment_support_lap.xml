@@ -26,7 +26,7 @@
                 android:layout_marginTop="28dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/Shampoo" />
+                app:srcCompat="@drawable/shampoo" />
 
             <TextView
                 android:id="@+id/txt_cleanLap"
@@ -62,7 +62,7 @@
                 app:layout_constraintHorizontal_bias="0.96"
                 app:layout_constraintStart_toEndOf="@+id/img_revisionpc"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/Chain" />
+                app:srcCompat="@drawable/chain" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -96,7 +96,7 @@
                 android:layout_marginTop="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
-                app:srcCompat="@drawable/Ball" />
+                app:srcCompat="@drawable/ball" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -131,7 +131,7 @@
                 app:layout_constraintHorizontal_bias="0.941"
                 app:layout_constraintStart_toEndOf="@+id/imageView26"
                 app:layout_constraintTop_toBottomOf="@+id/textView21"
-                app:srcCompat="@drawable/Nibble" />
+                app:srcCompat="@drawable/nibble" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -166,7 +166,7 @@
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:src="@drawable/Dog"
+                android:src="@drawable/dog"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
@@ -202,7 +202,7 @@
                 android:layout_marginStart="48dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="60dp"
-                android:src="@drawable/Pecera"
+                android:src="@drawable/pecera"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -241,7 +241,7 @@
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:src="@drawable/Comb"
+                android:src="@drawable/comb"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_nameService" />
 
@@ -278,7 +278,7 @@
                 android:foregroundGravity="center"
                 android:foregroundTint="#020202"
                 android:gravity="center"
-                android:src="@drawable/House"
+                android:src="@drawable/house"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/imageView8"

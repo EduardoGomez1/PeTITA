@@ -59,12 +59,28 @@
         <entry key="..\:/Apps/petITA/app/src/main/res/drawable/roundedbutton.xml" value="0.1145" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_congratulations.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_forgot.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_login.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_password_forgot.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_register.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/activity_welcome.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/app_bar_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/content_menu.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_about.xml" value="0.16666666666666666" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_aprobado.xml" value="0.16666666666666666" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_change_password.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_congratulation_password_change.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_contac.xml" value="0.4" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_instalation_net.xml" value="0.11730072463768115" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_maps.xml" value="0.16799999999999998" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_password_change.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_payment.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_rating.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_suport_pc_info.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_suppor_lap_info.xml" value="0.10989583333333333" />
+        <entry key="..\:/Apps/petITA/app/src/main/res/layout/fragment_support_lap.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/layout/nav_header_menu.xml" value="0.16666666666666666" />
         <entry key="..\:/Apps/petITA/app/src/main/res/menu/activity_menu_drawer.xml" value="0.10989583333333333" />
         <entry key="..\:/Apps/petITA/app/src/main/res/menu/menu.xml" value="0.10989583333333333" />

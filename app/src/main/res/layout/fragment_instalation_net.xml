@@ -10,6 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/fondo"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -25,7 +26,7 @@
                 android:layout_marginTop="32dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_cleanLap"
-                app:srcCompat="@drawable/Bag" />
+                app:srcCompat="@drawable/bag" />
 
             <TextView
                 android:id="@+id/textView22"
@@ -57,7 +58,7 @@
                 android:layout_marginEnd="64dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView21"
-                app:srcCompat="@drawable/Alcohol" />
+                app:srcCompat="@drawable/alcohol" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -91,7 +92,7 @@
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/Paracetamol" />
+                app:srcCompat="@drawable/paracetamol" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -124,7 +125,7 @@
                 android:layout_marginTop="28dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/Toothpaste" />
+                app:srcCompat="@drawable/toothpaste" />
 
             <TextView
                 android:id="@+id/txt_cleanLap"

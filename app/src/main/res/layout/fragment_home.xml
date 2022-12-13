@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:background="@drawable/fondo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +21,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
             <View
                 android:id="@+id/view16"
                 android:layout_width="0dp"
@@ -43,7 +45,7 @@
                 android:layout_alignStart="@+id/view16"
                 android:layout_alignBottom="@+id/view16"
                 android:layout_toStartOf="@+id/imageView10"
-                android:src="@drawable/Diagnostic"
+                android:src="@drawable/diagnostic"
                 app:layout_constraintBottom_toBottomOf="@+id/view16"
                 app:layout_constraintEnd_toStartOf="@+id/imageView10"
                 app:layout_constraintHorizontal_bias="0.257"
@@ -58,7 +60,7 @@
                 android:layout_alignBottom="@+id/view16"
                 android:layout_marginEnd="24dp"
                 android:layout_toStartOf="@+id/imageView11"
-                android:src="@drawable/Emergency"
+                android:src="@drawable/emergency"
                 app:layout_constraintBottom_toBottomOf="@+id/view16"
                 app:layout_constraintEnd_toStartOf="@+id/imageView12"
                 app:layout_constraintTop_toTopOf="@+id/view16" />
@@ -71,7 +73,7 @@
                 android:layout_alignBottom="@+id/view16"
                 android:layout_marginEnd="24dp"
                 android:layout_toStartOf="@+id/imageView12"
-                android:src="@drawable/Drug"
+                android:src="@drawable/drug"
                 app:layout_constraintBottom_toBottomOf="@+id/view16"
                 app:layout_constraintEnd_toEndOf="@+id/view16"
                 app:layout_constraintTop_toTopOf="@+id/view16"
@@ -85,7 +87,7 @@
                 android:layout_alignEnd="@+id/view16"
                 android:layout_alignBottom="@+id/view16"
                 android:layout_marginEnd="24dp"
-                android:src="@drawable/Dog"
+                android:src="@drawable/dog"
                 app:layout_constraintBottom_toBottomOf="@+id/view16"
                 app:layout_constraintEnd_toStartOf="@+id/imageView11"
                 app:layout_constraintTop_toTopOf="@+id/view16"
@@ -174,7 +176,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="8dp"
-                android:src="@drawable/banner1"
+                android:src="@drawable/vet"
                 app:layout_constraintBottom_toTopOf="@+id/view23"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -247,7 +249,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:src="@drawable/banner3"
+                android:src="@drawable/logo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"

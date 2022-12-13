@@ -23,6 +23,7 @@
     <include
         android:id="@+id/include"
         layout="@layout/content_menu"
+        android:background="@drawable/fondo"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center" />
 

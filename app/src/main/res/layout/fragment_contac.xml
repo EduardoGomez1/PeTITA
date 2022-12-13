@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +36,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/Antonio"
+                        android:src="@drawable/antonio"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -95,7 +96,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/Eduardo"
+                        android:src="@drawable/eduardo"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -136,12 +137,14 @@
                     android:text="(499) 109 79 36"
                     android:textSize="14sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/emi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="18dp"
                 android:orientation="vertical">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -153,7 +156,7 @@
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:padding="10dp"
-                        android:src="@drawable/Sarai"
+                        android:src="@drawable/sarai"
                         tools:ignore="MissingClass" />
 
                     <LinearLayout
@@ -178,6 +181,7 @@
 
                     </LinearLayout>
                 </LinearLayout>
+
                 <TextView
                     android:id="@+id/correoemiliano"
                     android:layout_width="wrap_content"
